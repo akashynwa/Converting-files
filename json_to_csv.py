@@ -16,11 +16,11 @@ csvwriter = csv.writer(data)
 
 count = 0
 
-for emp in data:
+for data_info in data:
 
       if count == 0:
 
-             header = emp.keys()
+             header = data_info.keys()
 
              csvwriter.writerow(header)
 
