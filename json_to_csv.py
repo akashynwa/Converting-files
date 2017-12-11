@@ -8,11 +8,11 @@ data = parsed['details']
 
 # open a file for writing
 
-employ_data = open('Data.csv', 'w')
+data = open('Data.csv', 'w')
 
 # create the csv writer object
 
-csvwriter = csv.writer(employ_data)
+csvwriter = csv.writer(data)
 
 count = 0
 
