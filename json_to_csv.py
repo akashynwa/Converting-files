@@ -28,4 +28,4 @@ for data_info in data:
 
       csvwriter.writerow(data_info.values())
 
-employ_data.close()
+data.close()
