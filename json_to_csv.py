@@ -26,6 +26,6 @@ for data_info in data:
 
              count += 1
 
-      csvwriter.writerow(emp.values())
+      csvwriter.writerow(data_info.values())
 
 employ_data.close()
